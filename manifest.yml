@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nodered-my-lab
+  host: nodered-my-lab
+  disk_quota: 1024M
+  services:
+  - nodered-my-lab-cloudantNoSQLDB
+  - Language Translator-nodered-my-lab
+  - Conversation-nodered-my-lab
